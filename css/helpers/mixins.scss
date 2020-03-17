@@ -19,5 +19,5 @@
 }
 
 @function multiplica-fonte-padrao($multiplicaodor) {
-    @return $multiplicaodor * $tamanho-fonte-padrao;
+    @return round($multiplicaodor * $tamanho-fonte-padrao);
 }
